@@ -1,0 +1,32 @@
+<!-- navigation -->
+<div class="top-bar">
+    <div class="top-bar-title">  
+        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon dark" type="button" data-toggle></button>
+        </span>      
+        <strong>Citygift</strong>
+    </div>
+    <div class="top-bar-right">
+        <div id="responsive-menu">
+            <ul class="dropdown menu" data-dropdown-menu>
+                
+                <li><%= link_to "Home", root_path %></li>
+                <li class="toplink"><%= link_to "Service", root_path(anchor: 'service'), data: { no_turbolink: true } %></li>
+                <li>
+                    <a href="#">Area</a>
+<!--area直接飛べるようにしてから
+                    <ul class="menu">
+                      <li class="topdown"><a href="#">Item 1A</a></li>
+                      <li class="topdown"><a href="#">Item 1A</a></li>
+                      <li class="topdown"><a href="#">Item 1A</a></li>
+                      <li class="topdown"><a href="#">Item 1A</a></li>
+                      <li class="topdown"><a href="#">Item 1A</a></li>
+                    </ul>
+-->
+                </li>
+              <li><a href="#">Contact</a></li>
+            </ul>         
+        </div>
+    </div>
+</div>
+<!-- navigation -->

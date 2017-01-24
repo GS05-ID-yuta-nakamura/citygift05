@@ -1,0 +1,28 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.top-bar li:hover a {
+    color: #FF8C00;
+}
+
+#toppic{
+    background-image: image-url("top.jpg");
+    background-size: cover;
+}
+
+.news{
+    background-color: white;
+}
+
+.shortsummary{
+//    background-color: #F5F5F5;
+    
+}
+
+//.serviceimage{
+//    border-color: #F5F5F5;
+//}
+
